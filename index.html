@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b7da55d757.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hi👋, I'm <span> Sakshi</span> <br />
+            from India
+          </h1>
+          <img src="images/bgimg.png" class="logo" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------about me--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="images/users.jpg" /></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              As a seasoned Software Engineer based in India, my expertise lies
+              in facilitating technical education through immersive hands-on
+              learning experiences and crafting bespoke applications via
+              freelance engagements and onsite projects. My professional journey
+              encompasses remote collaborations with agencies resulting in the
+              development of commercial and end-user domains. I'm quietly
+              confident, naturally curious, and perpetually working on improving
+              my chops.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages</span><br />Python/JavaScript
+                </li>
+                <li><span>Frameworks</span><br />FastAPI/Django/Nodejs</li>
+                <li><span>WebAPI</span><br />API Design/API testing</li>
+                <li>
+                  <span>App/Web Development</span><br />Building Android/iOS
+                  applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>September 2023 - Current</span><br />Backend Developer-
+                  Salt tech Software Services LLP
+                </li>
+                <li>
+                  <span>Virtual Internship</span><br />Cyber Security
+                  Internship- Microsoft
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>BE in Electronics and telecommunication (2019-23)</span
+                  ><br />CGPA: 8.48
+                </li>
+                <li><span>HSC -Science(2017-19)</span><br />Percentage: 66%</li>
+                <li><span>SSC (2016-17)</span><br />Percentage: 85.60%</li>
+                <li>
+                  <span>App/Web Development</span><br />Building Android/iOS
+                  applications
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------services------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skillsets</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Python serves as my core language, having extensively employed it in various projects. Its versatility and simplicity has empowered me to tackle diverse challenges in software development, making it an indispensable tool in my repertoire.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL</h2>
+                    <p>
+
+                        SQL's ability to manage and query relational databases efficiently has been pivotal in data-driven decision-making and application development, establishing it as a fundamental component of my expertise.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>Nodejs</h2>
+                    <p>I've utilized Node.js in past projects, leveraging its framework and extensive toolset to develop efficient web applications and backend solutions, enriching my experience in software development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-rust"></i>
+                    <h2>Rust</h2>
+                    <p>Recently, I've been delving into a Rust framework, exploring its features and capabilities to broaden my understanding of its ecosystem and potential applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- ----------------------my work-------------------- -->
+    <div id="mywork">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3><b>Fantasy Sports App</b></h3>
+                        <p>Developed and launched a fantasy sports app, 
+                            available on both Play Store and iOS platforms. 
+                             Users can draft teams, compete with friends, 
+                             and climb leaderboards for the ultimate fantasy 
+                             sports experience."
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                <h3><b> Real Estate CRM</b></h3>
+                        <p> A customer relationship management (CRM) system <br>
+                            that helps manage all communications with both <br>
+                            leads and clients.
+                            
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                <h3><b>Social Media App</b></h3>
+                        <p>The app connects you to the talented people <br>
+                            download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
